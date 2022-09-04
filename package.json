@@ -1,0 +1,26 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "430 Assignment ",
+  "main": "index.js",
+  "scripts": {
+    "pretest":"eslint ./src/server.js",
+    "test": "echo \"Tests complete\"",
+    "start" : "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbernal01/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/vbernal01/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/vbernal01/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
